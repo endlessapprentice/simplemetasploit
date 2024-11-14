@@ -1,0 +1,11 @@
+sudo service postgresql start (para iniciar la base de datos)
+msfconsole
+db_status
+msfdb init (por si el status es no conection)
+nmap -Pn -sS -A -oX nombre_archivo CDIR
+db_import nombre_archivo
+host
+services
+use auxiliary/scanner/portscan/syn y configurar INTERFACE,PORTS, RHOSTS THREADS( a 50) y run
+use smb/smb_version y condfigurar RHOSTS THREADS (a 11) y run
+Module wordpress_login_enum 
